@@ -10,8 +10,7 @@ Seulement voila jean jacques utilise le mot de passe le plus utilisé : 123456
 Son équipe Support/Desk à mis en place une politique de mot de passe pour éviter le problème
 --
 
-
-image::itguy.jpg[height=300]
+image::./images/itguy.jpg[height=400]
 
 [%notitle]
 === Password Policy
@@ -22,7 +21,7 @@ Là c'est ce qui se passe dans la tête de Jean jacques.
 Il est pas serein JayJay mais il se force et apprend un mot de passe compliqué pour tout ses comptes
 --
 
-image::passwordpolicy.jpg[height=400]
+image::./images/passwordpolicy.jpg[height=400]
 
 
 [%notitle]
@@ -34,7 +33,7 @@ Bon à ce moment c'est un coup dur quand JayJay
 Il apprend qu'un mot de passe unique peut mettre en péril la sécurité de ses autres comptes
 --
 
-image::password.png[height=400]
+image::./images/password.png[height=400]
 
 [%notitle]
 === Authent à 2 facteurs
@@ -44,7 +43,7 @@ image::password.png[height=400]
 Le coup fatal pour JJ c'est l'annonce d'une mécanique d'autent à 2 facteurs
 --
 
-image::2fa.jpg[]
+image::./images/2fa.jpg[]
 
 [%notitle]
 == Solutions
@@ -52,12 +51,15 @@ image::2fa.jpg[]
 [.notes]
 --
 Je dois vous avouer un truc moi aussi ca me gonfle:
+
+
+
 * de devoir changer de mot de passe régulièrement
 * de devoir chercher des mots de passes compliqué
 * d'avoir un mot de passe par site/application
 --
 
-image::JJ.jpg[]
+image::./images/JJ.jpg[]
 
 [%notitle]
 === Vault
@@ -68,17 +70,17 @@ Les coffres d'entreprise, type vault de hashicorp sont de bonnes solutions pour 
 Individuellement il existe aussi des coffres logiciels
 --
 
-image::vault.jpg[]
+image::./images/vault.jpg[]
 
 [%notitle]
 === Bitwarden[https://bitwarden.com]
 
 [.notes]
 --
-Ceci n'est pas une vidéo sponsorisée simplement un outil que je partage avec vous
+Ceci n'est pas une vidéo sponsorisée simplement un outil que je partage avec vous!
 --
 
-image::bitwarden.png[]
+image::./images/bitwarden.png[]
 
 === Demo
 
