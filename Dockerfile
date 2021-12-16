@@ -1,4 +1,4 @@
 FROM asciidoctor/docker-asciidoctor
-RUN gem install webrick && apk add nodejs
+RUN gem install webrick
 COPY ./entrypoint.sh /entrypoint
 ENTRYPOINT ["/entrypoint"]

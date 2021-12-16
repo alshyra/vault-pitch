@@ -1,0 +1,24 @@
+= Vault pitch
+
+== Topic
+
+This a slide presentation about using password managed by vault instead of a single password.
+
+== Start the presentation
+
+The presentation can be started using `docker-compose`.
+
+[source,bash]
+----
+docker-compose up -d
+----
+
+The presentation is available on port `8080`.
+
+It will start a container based on the `asciidoctor/docker-asciidoctor` image
+
+The container also add a custom entrypoint that starts a light webserver for the speaker notes.
+
+The webserver will restart it on file change.
+
+NOTE: speaker notes doesn't seems to work on vivaldi browser.
