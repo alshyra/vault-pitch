@@ -1,19 +1,30 @@
-= Password
+= Arretez de retenir vos mots de passes
 :notitle:
+:customcss:
 
 == Meet JeanJacques
 
 [.notes]
 --
 Jean Jacques travail dans l'it et a besoin de mot de passe pour vérifier son identité
+
 Seulement voila jean jacques utilise le mot de passe le plus utilisé : 123456
+
 Son équipe Support/Desk à mis en place une politique de mot de passe pour éviter le problème
 --
 
-image::./images/itguy.jpg[height=400]
+image::./images/jeanjacques.jpg[height=400]
 
 [%notitle]
-=== Password Policy
+[.columns]
+== asa
+
+++++
+include::./signature.html[]
+++++
+
+[%notitle]
+== Password Policy
 
 [.notes]
 --
@@ -52,8 +63,6 @@ image::./images/2fa.jpg[]
 --
 Je dois vous avouer un truc moi aussi ca me gonfle:
 
-
-
 * de devoir changer de mot de passe régulièrement
 * de devoir chercher des mots de passes compliqué
 * d'avoir un mot de passe par site/application
@@ -61,26 +70,20 @@ Je dois vous avouer un truc moi aussi ca me gonfle:
 
 image::./images/JJ.jpg[]
 
-[%notitle]
-=== Vault
+[.columns]
+== Gestionnaire de mot de passe
 
-[.notes]
+[.column]
 --
-Les coffres d'entreprise, type vault de hashicorp sont de bonnes solutions pour stocker des données sensibles
-Individuellement il existe aussi des coffres logiciels
---
-
-image::./images/vault.jpg[]
-
-[%notitle]
-=== Bitwarden[https://bitwarden.com]
-
-[.notes]
---
-Ceci n'est pas une vidéo sponsorisée simplement un outil que je partage avec vous!
+image::./images/keepass.svg[height=100]
+image::./images/lastpass.svg[height=75]
 --
 
-image::./images/bitwarden.png[]
+[.column]
+--
+image::./images/1password.png[height=100]
+image::./images/bitwarden.png[height=75]
+--
 
 === Demo
 
@@ -90,3 +93,34 @@ image::./images/bitwarden.png[]
 * Inscription
 * Plugin Chrome
 --
+
+[%notitle]
+=== Vault
+
+[.notes]
+--
+Les coffres d'entreprise, type vault de hashicorp sont de bonnes solutions pour stocker des données sensibles
+--
+
+image::./images/virtual-vault.jpg[]
+
+=== Vault
+
+[.notes]
+--
+Vault by hashicorp permet de stocker et de modifier vos mot de passe avec un système clef valeur.
+Vous pouvez également lui demander de générer des clefs pour vous.
+--
+
+image::./images/vault.png[]
+
+=== Vault k8s
+
+[.notes]
+--
+Vault s'intègre bien avec k8s
+--
+
+image::./images/vaultk8s.png[]
+
+== Merci

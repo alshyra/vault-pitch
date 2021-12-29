@@ -1,0 +1,28 @@
+.reveal .signature img {
+    background: 0;
+    border: 0;
+    /* override default image box shadow */
+    /* box-shadow: 0 0 0px rgba(0, 0, 0, 0); */
+}
+
+.reveal .signature * {
+    vertical-align: middle;
+    border-bottom: none;
+}
+table.signature {
+    border: none;
+}
+
+.border-right {
+    border-right: 1px solid grey
+}
+
+img#portrait{
+    border-radius: 50%;
+}
+
+img#logo {
+    background: 0;
+    border: 0;
+    margin: 0;
+}
