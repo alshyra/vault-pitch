@@ -54,7 +54,18 @@ image::./images/password.png[height=400]
 Le coup fatal pour JJ c'est l'annonce d'une mécanique d'autent à 2 facteurs
 --
 
+image::./images/shrek-security-has-layers-1.jpg[]
+
+[%notitle]
+=== Authent à 2 facteurs
+
+[.notes]
+--
+Envoie d'un otp sur téléphone
+--
+
 image::./images/2fa.jpg[]
+
 
 [%notitle]
 == Solutions
